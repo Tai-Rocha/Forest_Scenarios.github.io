@@ -32,4 +32,10 @@ extent(data1) <- c(-180,180, -90,90) # set extent
 
 writeRaster(data1, "./results/teste_PTF0_ssp_rcp26.tif")
 
-PFTO_1 <- nc_data$var$
+
+nc_data$var$PFT0
+#######
+
+       
+       
+  
