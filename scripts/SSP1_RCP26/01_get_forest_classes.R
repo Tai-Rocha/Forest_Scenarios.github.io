@@ -38,10 +38,16 @@ Forest_2020 <- sum(forest_2020_1)
 plot(Forest_2020)
 
 
-############# WriteRaster
+## Save raster in results folder
 
 writeRaster(Forest_2020, "./data/GCAM/Forest_classes/SSP1_RCP26/2020/Forest_2020_1.tif")
 
+## Clean environment and plotslist all environment objects and remove
+rm(list=ls()) 
+
+## Remove all plots
+
+dev.off(dev.list()["RStudioGD"]) 
 
 ###############################################    2030    ############################################### 
 
@@ -66,9 +72,16 @@ Forest_2030 <- sum(forest_2030_1)
 plot(Forest_2030)
 
 
-############# WriteRaster
+## Save raster in results folder
 
 writeRaster(Forest_2030, "./data/GCAM/Forest_classes/SSP1_RCP26/2030/Forest_2030_1.tif")
+
+## Clean environment and plotslist all environment objects and remove
+rm(list=ls()) 
+
+## Remove all plots
+
+dev.off(dev.list()["RStudioGD"]) 
 
 ###############################################    2050    ############################################### 
 
@@ -93,7 +106,15 @@ Forest_2050 <- sum(forest_2050_1)
 plot(Forest_2050)
 
 
-############# WriteRaster
+## Save raster in results folder
 
 writeRaster(Forest_2050, "./data/GCAM/Forest_classes/SSP1_RCP26/2050/Forest_2050_1.tif")
+
+## Clean environment and plots
+
+rm(list=ls()) ## list all environment objects and remove
+
+## Remove all plots
+
+dev.off(dev.list()["RStudioGD"]) 
 
