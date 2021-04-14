@@ -1,9 +1,9 @@
-###################################################
-## Script to manage GCAM land use dataset.
+###################################################################
+## Script to manage GCAM land use dataset for 2030, Measn Sd Gcms 
 ## Here we select and sum just forest classes
 ## Author: Tainá Rocha
 ## Data: 14 April 2021
-###################################################
+###################################################################
 
 ## Library
 
@@ -12,7 +12,7 @@ library(ncdf4)
 library(rgdal)
 library(terra)
 library(Thermimage)
-############################################## SSP1_ RCP26 ############################################## 
+############################################## 2030_SSP1_ RCP26 ############################################## 
 
 
 ## Open netCFD file (ncdf4 packg)
