@@ -29,6 +29,17 @@ for (i in 1:nlayers(b)) {
   print(filename)
 }
 
+###########################################################################################################
+
+for (i in 1:nlayers(b)) {
+  writeRaster(b, filename = file.path(nms[i], paste0(nms[i], ".tif")), )
+  #dir.create(nms[i], F, F)
+  print(filename)
+}
+
+
+
+
 # I need a folder per SSP, where I have 3 files correpondin a years 20020, 2030 and 2050. 
 
 ## Not run, not work
