@@ -27,19 +27,14 @@ for (i in 1:nlayers(b)) {
   print(filename)
 }
 
-########################################################################################################### v1 it's ok but files are saved in the same folder 
+########################################################################################################### also work. All files are saved in results folder 
 subd <- list.dirs("./results/", full.names = T, recursive = F)
 
-for (j in 1:length(subd)) {
-  print(j)
-}
-
 for (i in 1:nlayers(b)) {
-  writeRaster(b, filename = file.path(subd[[j]], paste0(nms[i], ".tif")), )
+  writeRaster(b, filename = file.path("./results/", paste0(nms[i], "_bin.tif")), )
   #dir.create(nms[i], F, F)
   print(filename)
 }
-
 
 
 # I need a folder per SSP, where I have 3 files correpondin a years 20020, 2030 and 2050. 
