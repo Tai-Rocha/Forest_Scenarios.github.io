@@ -1,6 +1,4 @@
 
-
-
 library(raster)
 
 ## Ok
@@ -29,14 +27,18 @@ for (i in 1:nlayers(b)) {
   print(filename)
 }
 
-###########################################################################################################
+########################################################################################################### v1 it's ok but files are saved in the same folder 
+subd <- list.dirs("./results/", full.names = T, recursive = F)
+
+for (j in 1:length(subd)) {
+  print(j)
+}
 
 for (i in 1:nlayers(b)) {
-  writeRaster(b, filename = file.path(nms[i], paste0(nms[i], ".tif")), )
+  writeRaster(b, filename = file.path(subd[[j]], paste0(nms[i], ".tif")), )
   #dir.create(nms[i], F, F)
   print(filename)
 }
-
 
 
 
@@ -47,7 +49,7 @@ for (i in 1:nlayers(b)) {
 b <- paste0(names(binary_01@data),"_bin.tif")
 
 lapply(binary_01, FUN=function(x) {
-  writeRaster(x, file.path("./results/","train", paste0(names(x), ".tif")), )
+  writeRaster(x, file.path(subd,"train", paste0(names(x), ".tif")), )
 })
   
 ##
