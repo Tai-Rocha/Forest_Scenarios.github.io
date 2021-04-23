@@ -19,11 +19,13 @@ a <- stack(lista)
 plot(a)
 
 #3 make binary with treshold 10
-b <- a >50.0
-plot(b)
+b <- a >=50.0
 
-#4 correct names
+#4 correct names then plot
+
 names(b) <-names(a)
+
+plot(b)
 
 #5 Wite rasters
 writeRaster(b, filename = names(a), format = "GTiff", bylayer = T)
