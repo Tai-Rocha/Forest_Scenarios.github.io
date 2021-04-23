@@ -1,11 +1,12 @@
 ################################################################################################
 ## Forests in SSPs scenarios 
-## Aplly a minimmun tresholg of 0.1 to make binary raster (0- No forest and 1- Forest)
+## Aplly a minimmun threshold of ?? to make binary raster (0- No forest and 1- Forest)
 ## Author: Tainá Rocha
 ## Date: 23 April  2021
 ################################################################################################
 
 # Library
+
 library(raster)
 
 ## Steps
