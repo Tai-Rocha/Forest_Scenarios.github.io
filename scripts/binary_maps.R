@@ -27,6 +27,6 @@ names(b) <-names(a)
 
 plot(b)
 
-#5 Wite rasters
+#5 Write rasters
 writeRaster(b, filename = names(a), format = "GTiff", bylayer = T)
 
