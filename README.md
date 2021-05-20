@@ -19,8 +19,8 @@ More details about LU classes .....
 
 ## Methods
 
-- [x] Sum Forest classes (codes PTF1 to PTF8)
-- [x] Histograms of continuous raster derived from the Sum
+- [x] Sum Forest classes (codes PTF1 to PTF8)- Global
+- [x] Histograms of continuous raster derived from the Sum- Global
 - [ ] Histograms for ecoregions (Neotropics, Afrotropics etc..)
 - [ ] Choose of reference map (Maybe [Corpernicus](https://land.copernicus.eu/global/products/lc) ?) and justify.
 - [ ] Set of thresholds and choose the best match with a reference map. It's a step that will require carefully studied/references to justify the choice of this threshold ( go on! :female_detective:	)
@@ -28,7 +28,7 @@ More details about LU classes .....
 
 
 ## Preliminary results 
-<p align="justify">Forest amount for 2020, 2030 and 2050 respectively (Left to right). Forest values axis range from 0-100, however I exclude all 0 values, considering just grids with forest. Frenquency axis range from 0 - 1000000, represents the number of times that specif Forest values occur. Black bars evidencing less forest and green bars more forest.</p>
+<p align="justify">Forest amount for 2020, 2030 and 2050 respectively (Left to right) for Global. Forest values axis range from 0-100, however I exclude all 0 values, considering just grids with forest. Frenquency axis range from 0 - 1000000, represents the number of times that specif Forest values occur. Black bars evidencing less forest and green bars more forest.</p>
 <br /> 
 <p align="justify">Ps.: Need to review carefully the data because there are more forests in the scenario SSP5_RCP865 (worst) than RCP4_RCP6. Is it true? If it's true, why?    (go one ! :female_detective: )</p>
 <br /> 
