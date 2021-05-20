@@ -7,4 +7,5 @@ This is a repository with scripts to assess the forests land-use classes of [GCA
 # Methods
 
 [x] Sum Forest classes (codes PTF1 to PTF8)
+
 [x] Histograms of continuous raster derived from the Sum
