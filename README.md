@@ -38,7 +38,7 @@ Fig.1 SSP1_RCP2.6
 <br /> 
 
 ![](https://i.imgur.com/VodtnoE.png)
-Fig.2 SSP2_45. 
+Fig.2 SSP2_4.5
 <br /> 
 <br /> 
 <br /> 
@@ -48,6 +48,9 @@ Fig.3 SSP4_RCP6
 <br /> 
 <br /> 
 <br /> 
+
+![](https://i.imgur.com/2YOjzuK.png)
+Fig.4 SSP5_RCP8.5
 ## References
 
 
