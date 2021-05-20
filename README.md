@@ -32,17 +32,22 @@ Forest amount for 2020, 2030 and 2050 respectively (Left to right). Forest value
 
 
 ![](https://i.imgur.com/3Rg8B5n.png)
-
 Fig.1 SSP1_RCP2.6
 <br /> 
 <br /> 
 <br /> 
 
 ![](https://i.imgur.com/VodtnoE.png)
-
-
 Fig.2 SSP2_45. 
+<br /> 
+<br /> 
+<br /> 
 
+![](https://i.imgur.com/XLdR95v.png)
+Fig.3 SSP4_RCP6
+<br /> 
+<br /> 
+<br /> 
 ## References
 
 
