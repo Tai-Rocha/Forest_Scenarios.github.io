@@ -12,7 +12,7 @@ This is a repository with scripts to assess the forest land-use classes of [GCAM
 
 - [x] Sum Forest classes (codes PTF1 to PTF8)
 - [x] Histograms of continuous raster derived from the Sum
-- [ ] Choose of reference map (Maybe [Corpernicus](https://land.copernicus.eu/global/products/lc) ?)
+- [ ] Choose of reference map (Maybe [Corpernicus](https://land.copernicus.eu/global/products/lc) ?) and justify.
 - [ ] Set of thresholds and choose the best match with a reference map. It's a step that will require carefully studied/references to justify the choice of this threshold ( go on! :female_detective:	)
 
 
