@@ -26,9 +26,11 @@ Here I using mean of five GCMs and the first version (i.e the harmonized project
 
 ## Preliminary results 
 Forest amount for 2020, 2030 and 2050 respectively (Left to right). Forest values axis range from 0-100, however I exclude all 0 values, considering just grids with forest. Frenquency axis range from 0 - 1000000, represents the number of times that specif Forest values occur. Black bars evidencing less forest and green bars more forest.
+Ps.: Need to review carefully the data because there are more forests in the scenario SSP5_RCP865 (worst) than RCP4_RCP6. Is it true? If it's true, why?    (go one ! :female_detective: )
 <br /> 
 <br /> 
 <br /> 
+
 
 
 ![](https://i.imgur.com/3Rg8B5n.png)
