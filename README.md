@@ -21,8 +21,10 @@ More details about LU classes .....
 
 - [x] Sum Forest classes (codes PTF1 to PTF8)
 - [x] Histograms of continuous raster derived from the Sum
+- [ ] Histograms for ecoregions (Neotropics, Afrotropics etc..)
 - [ ] Choose of reference map (Maybe [Corpernicus](https://land.copernicus.eu/global/products/lc) ?) and justify.
 - [ ] Set of thresholds and choose the best match with a reference map. It's a step that will require carefully studied/references to justify the choice of this threshold ( go on! :female_detective:	)
+- [ ] Histograms for for binay maps and considering ecoregions
 
 
 ## Preliminary results 
