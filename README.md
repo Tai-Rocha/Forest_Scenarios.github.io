@@ -25,13 +25,13 @@ Here I using mean of five GCMs and the first version (i.e the harmonized project
 
 
 ## Preliminary results 
-
+Forest amount for 2020, 2030 and 2050 respectively (Left to right). Forest values axis range from 0-100, however I exclude all 0 values, considering just grids with forest. Frenquency axis range from 0 - 1000000, represents the number of times that specif Forest values occur. Black bars evidencing less forest and green bars more forest.
 
 
 ![](https://i.imgur.com/3Rg8B5n.png)
 
 
-Fig.1 Forest amount for 2020, 2030 and 2050 respectively (Left to right) under SS1_RCP2.6 . Forest values axis range from 0-100, however I exclude all 0 values, considering just grids with forest. Frenquency axis range from 0 - 1000000, represents the number of times that specif Forest values occur. Black bars evidencing less forest and green bars more forest.
+Fig.1 SSP1_RCP2.6
 <br /> 
 <br /> 
 <br /> 
