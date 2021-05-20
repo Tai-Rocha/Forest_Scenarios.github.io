@@ -1,5 +1,5 @@
 # Forest_Scenarios
-<p align="justify">This is a repository with scripts to assess the forest land-use classes of [GCAM-Demeter](https://data.pnnl.gov/dataset/13192) dataset under different scenarios of climate change, based on a combination of Shared Socioeconomic Pathways (SSPs) and Representative Concentration Paths (RCPs), as designed by Coupled Model Intercomparison Project phase 6 (CMIP6) and future Intergovernmental Panel on Climate Change (IPCC) assessments. This evaluation is being done for three time slices (2020, 2030 and 2050).</p>
+<div style="text-align: justify">This is a repository with scripts to assess the forest land-use classes of [GCAM-Demeter](https://data.pnnl.gov/dataset/13192) dataset under different scenarios of climate change, based on a combination of Shared Socioeconomic Pathways (SSPs) and Representative Concentration Paths (RCPs), as designed by Coupled Model Intercomparison Project phase 6 (CMIP6) and future Intergovernmental Panel on Climate Change (IPCC) assessments. This evaluation is being done for three time slices (2020, 2030 and 2050).</div>
 #### Status : In progress
 
 ## Introdcution
