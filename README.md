@@ -2,7 +2,9 @@
 #### In progress
 
 ## Introdcution
-This is a repository with scripts to assess the forests land-use classes of [GCAM-Demeter dataset](https://data.pnnl.gov/dataset/13192)  under different scenarios of climate change for three temporal slices (2020, 2030 and 2050).
+This is a repository with scripts to assess the forest land-use classes of [GCAM-Demeter dataset](https://data.pnnl.gov/dataset/13192) under different scenarios of climate change, based on a combination of Shared Socioeconomic Pathways (SSPs) and Representative Concentration Paths (RCPs). for three temporal slices (2020, 2030 and 2050).
+
+
 
 ## Methods
 
@@ -13,6 +15,8 @@ This is a repository with scripts to assess the forests land-use classes of [GCA
 
 
 ## Preliminary results 
+
+
 
 
 
