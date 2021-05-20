@@ -27,6 +27,12 @@ Here I using mean of five GCMs and the first version (i.e the harmonized project
 ## Preliminary results 
 
 
+
+![](https://i.imgur.com/ARsjGmU.png)
+
+Fig.1 Forest amount for 2020, 2030 and 2050 respectively (Left to right) under SS1_RCP2.6. We exclude all 0 values for these histograms, considering just grids with forest.
+
+
 ## References
 
 
