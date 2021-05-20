@@ -3,7 +3,10 @@ This is a repository with scripts to assess the forest land-use classes of [GCAM
 #### Status : In progress
 
 ## Introdcution
-Forest loss is one of the most causes of the threat of biodiversity, besides forests drives a key role in the climate earth system that also affects species diversity and the ecosystems services (Eyringet al. 2016, Maxwell et al. 2016, Ruiz-Benito et al. 2020). 
+Forest loss is one of the most causes of the threat of biodiversity, besides forests drives a key role in the climate earth system that also affects species diversity and the ecosystems services (Eyringet al. 2016, Maxwell et al. 2016, Ruiz-Benito et al. 2020). Thus, several initiatives to map Land-use and projects then in the future, mainly the availability of those products, are valuable for ecology, conservation, and other studies  (Ruiz Benito et al 2020, Vale et al 2021).
+
+More details about CMIPs project LUH2 projetc and  SSPs a RCPs SSPs narratives nad RCPs...
+
 
 A recent Land-use product called GCAM-Demeter presents thee higher global spatial resolution (0.05 º) until now, with future projections (2015-2100) under different scenarios of climate change (combination of SSPS and RCPs) Consistent with the design of CMIP6.
 
