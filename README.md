@@ -11,7 +11,7 @@ Repository of workflow to get and assess the forest land-use classes of [GCAM-De
 More details about CMIPs, LUH2 projetc, SSPs and RCPs ...
 
 
-<p align="justify">A recent Land-use product called GCAM-Demeter presents thee higher global spatial resolution (0.05 º) until now, with future projections (2015-2100) under different scenarios of climate change (combination of SSPS and RCPs) Consistent with the design of CMIP6.</p>
+<p align="justify">A recent Land-use product called GCAM-Demeter presents the highest global spatial resolution (0.05 º) until now, with future projections (2015-2100) under different scenarios of climate change (combination of SSPS and RCPs) Consistent with the design of CMIP6.</p>
 
 <p align="justify">The data are available for five GCMs (i.e., gfdl, hadgem, ipsl, miroc, and noresm), using the Global Change Analysis Model (GCAM) and a geospatial downscaling model (Demeter). Also includes the mean and standard deviation of the results driven by the five GCMs. More specifically, the data in each year include grid-explicit fraction (in percent) of each of the 32 plant functional types (PFTs) that are widely used in current Earth system models. The dataset has two versions: 1- firts version was developed based on a harmonized GCAM projections which have been adjusted to match the base map during the downscaling process and is more consistent with the PFT classification of the terrestrial vegetation types and recommended for use in Earth system models. 2- second version was based on the original GCAM projections.</p>
 More details about LU classes .....
