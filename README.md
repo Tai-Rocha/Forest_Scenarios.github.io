@@ -30,7 +30,7 @@ More details about LU classes .....
 
 
 ## Preliminary results 
-<p align="justify">Forest amount for 2020, 2030 and 2050 respectively (Left to right) for whole globe. Forest values axis range from 0-100, however I exclude all 0 values, considering just grids with forest. Frenquency axis range from 0 - 1000000, represents the number of times that specif Forest values occur. Black bars evidencing less forest and green bars more forest.</p>
+<p align="justify">Forest amount for 2020, 2030 and 2050 respectively (Left to right in Figs) for whole globe. Forest values axis range from 0-100, however I exclude all 0 values, considering just grids with forest. Frenquency axis range from 0 - 1000000, represents the number of times that specif Forest values occur. Black bars evidencing less forest and green bars more forest.</p>
 <br /> 
 <p align="justify">Ps.: Need to review carefully the data because there are more forests in the scenario SSP5_RCP865 (worst) than RCP4_RCP6. Is it true? If it's true, why?    (go one ! :female_detective: )</p>
 <br /> 
