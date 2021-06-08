@@ -3,6 +3,7 @@
 ## Aplly a minimmun threshold of ?? to make binary raster (0- No forest and 1- Forest)
 ## Author: Tainá Rocha
 ## Date: 23 April  2021
+## 4.02 R version
 ################################################################################################
 
 # Library
