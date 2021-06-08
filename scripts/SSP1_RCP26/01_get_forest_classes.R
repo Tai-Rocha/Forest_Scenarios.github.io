@@ -3,6 +3,7 @@
 ## Here we select and sum just forest classes
 ## Author: Tainá Rocha
 ## Data: 14 April 2021
+## 4.02 R version
 ###############################################################################
 
 ## Library
