@@ -18,9 +18,9 @@ More details about LU classes .....
 
 <p align="justify"> Although the valuable contribution of the GCAM-Demeter provides those data, those data are compressed in NetCDF format, a complex file format, which needs management to become usable in several analyses, especially in ecology and biodiversity analyses (Vale et al 2021 and reference therein). Here I manage the mean of five GCMs and the first version (i.e the harmonized projection)  to assess the forest classes summing all Forest classes (codes PTF1 to PTF8) considering:
 
-1- Global Extent at  0.05-degree resolution 
-2- Years 2020, 2030 and 2050
-2- Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCP) as follow: SSP1_RCP2, SSP2_RCP45, SSP4_RCP6, SSP5_RCP85
+1- Global Extent at  0.05-degree resolution <br>
+2- Years 2020, 2030 and 2050 <br>
+3- Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCP) as follow: SSP1_RCP2, SSP2_RCP45, SSP4_RCP6, SSP5_RCP85 <br>
 
 Finally, I provide the outputs in the Tag Image File Format (TIFF) format that is more friendly and useable to incorporate in several spatial analyses. </p>
 
