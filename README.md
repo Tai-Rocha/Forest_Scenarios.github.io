@@ -16,7 +16,13 @@ More details about CMIPs, LUH2 projetc, SSPs and RCPs ...
 <p align="justify">The data are available for five GCMs (i.e., gfdl, hadgem, ipsl, miroc, and noresm), using the Global Change Analysis Model (GCAM) and a geospatial downscaling model (Demeter). Also includes the mean and standard deviation of the results driven by the five GCMs. More specifically, the data in each year include grid-explicit fraction (in percent) of each of the 32 plant functional types (PFTs) that are widely used in current Earth system models. The dataset has two versions: 1- firts version was developed based on a harmonized GCAM projections which have been adjusted to match the base map during the downscaling process and is more consistent with the PFT classification of the terrestrial vegetation types and recommended for use in Earth system models. 2- second version was based on the original GCAM projections.</p>
 More details about LU classes .....
 
-<p align="justify"> Although the valuable contribution of the GCAM-Demeter provides those data, those data are compressed in NetCDF format, a complex file format, which needs management to become usable in several analyses, especially in ecology and biodiversity analyses (Vale et al 2021 and reference therein). Here I using mean of five GCMs and the first version (i.e the harmonized projection)  to assess the forest classes through time and scenarios. </p>
+<p align="justify"> Although the valuable contribution of the GCAM-Demeter provides those data, those data are compressed in NetCDF format, a complex file format, which needs management to become usable in several analyses, especially in ecology and biodiversity analyses (Vale et al 2021 and reference therein). Here I manage the mean of five GCMs and the first version (i.e the harmonized projection)  to assess the forest classes summing all Forest classes (codes PTF1 to PTF8) considering:
+
+1- Global Extent at  0.05-degree resolution 
+2- Years 2020, 2030 and 2050
+2- Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCP) as follow: SSP1_RCP2, SSP2_RCP45, SSP4_RCP6, SSP5_RCP85
+
+Finally, I provide the outputs in the Tag Image File Format (TIFF) format that is more friendly and useable to incorporate in several spatial analyses. </p>
 
 
 ## Methods
