@@ -21,6 +21,8 @@ More details about LU classes .....
 1- Global Extent at  0.05-degree resolution <br>
 2- Years 2020, 2030 and 2050 <br>
 3- Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCP) as follow: SSP1_RCP2, SSP2_RCP45, SSP4_RCP6, SSP5_RCP85 <br>
+4- It can be identified by its own file name. Example :
+2020_SSP5_RCP85_Forest_GCAM-Demeter_GCMsMean_Harmonized.tif <br>
 
 Finally, I provide the outputs in the Tag Image File Format (TIFF) format that is more friendly and useable to incorporate in several spatial analyses. </p>
 
