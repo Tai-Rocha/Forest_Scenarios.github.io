@@ -1,9 +1,8 @@
 ###############################################################################
-## Script to manage GCAM land use dataset for SSP2_RCP45 (2020, 2030 and 2050)
+## Script to manage GCAM land use dataset for SSP5_RCP85 (2020, 2030 and 2050)
 ## Here we select and sum just forest classes
 ## Author: Tainá Rocha
 ## Data: 14 April 2021
-## 4.02 R version
 ###############################################################################
 
 ## Library
@@ -13,14 +12,14 @@ library(ncdf4)
 library(rgdal)
 library(terra)
 
-############################################### SSP2_RCP45 ############################################## 
+############################################### SSP5_RCP85 ############################################## 
 
 ###############################################    2020    ############################################### 
 
 
 ## Open netCFD file (ncdf4 packg)
 
-a_2020 <- nc_open('./data/GCAM/RAW/93d4aa096b15491b1ba136b46d8063cdca59d253c75d59791b4d4cb6f8a1ae91/Project ID 68344/GCAM-Demeter/GCAM-Harmonized/Mean_Std/SSP2_RCP45/GCAM_Demeter_LU_H_ssp2_rcp45_modelmean_2020.nc')
+a_2020 <- nc_open('./data/GCAM/RAW/93d4aa096b15491b1ba136b46d8063cdca59d253c75d59791b4d4cb6f8a1ae91/Project ID 68344/GCAM-Demeter/GCAM-Harmonized/Mean_Std/SSP5_RCP85/GCAM_Demeter_LU_H_ssp5_rcp85_modelmean_2020.nc')
 
 ## Convert variables in spatial objet (terra pckg)
 
@@ -41,7 +40,7 @@ plot(Forest_2020)
 
 ## Save raster in results folder
 
-writeRaster(Forest_2020, "./data/GCAM/Forest_classes/SSP2_RCP45/2020/Forest_2020_1.tif")
+writeRaster(Forest_2020, "./data/GCAM/Forest_classes/SSP5_RCP85/2020/Forest_2020_1.tif")
 
 ## Clean environment and plotslist all environment objects and remove
 rm(list=ls()) 
@@ -54,7 +53,7 @@ dev.off(dev.list()["RStudioGD"])
 
 ## Open netCFD file (ncdf4 packg)
 
-b_2030 <- nc_open('./data/GCAM/RAW/93d4aa096b15491b1ba136b46d8063cdca59d253c75d59791b4d4cb6f8a1ae91/Project ID 68344/GCAM-Demeter/GCAM-Harmonized/Mean_Std/SSP2_RCP45/GCAM_Demeter_LU_H_ssp2_rcp45_modelmean_2030.nc')
+b_2030 <- nc_open('./data/GCAM/RAW/93d4aa096b15491b1ba136b46d8063cdca59d253c75d59791b4d4cb6f8a1ae91/Project ID 68344/GCAM-Demeter/GCAM-Harmonized/Mean_Std/SSP5_RCP85/GCAM_Demeter_LU_H_ssp5_rcp85_modelmean_2030.nc')
 
 ## Convert variables in spatial objet (terra pckg)
 
@@ -75,7 +74,7 @@ plot(Forest_2030)
 
 ## Save raster in results folder
 
-writeRaster(Forest_2030, "./data/GCAM/Forest_classes/SSP2_RCP45/2030/Forest_2030_1.tif")
+writeRaster(Forest_2030, "./data/GCAM/Forest_classes/SSP5_RCP85/2030/Forest_2030_1.tif")
 
 ## Clean environment and plotslist all environment objects and remove
 rm(list=ls()) 
@@ -88,7 +87,7 @@ dev.off(dev.list()["RStudioGD"])
 
 ## Open netCFD file (ncdf4 packg)
 
-c_2050 <- nc_open('./data/GCAM/RAW/93d4aa096b15491b1ba136b46d8063cdca59d253c75d59791b4d4cb6f8a1ae91/Project ID 68344/GCAM-Demeter/GCAM-Harmonized/Mean_Std/SSP2_RCP45/GCAM_Demeter_LU_H_ssp2_rcp45_modelmean_2050.nc')
+c_2050 <- nc_open('./data/GCAM/RAW/93d4aa096b15491b1ba136b46d8063cdca59d253c75d59791b4d4cb6f8a1ae91/Project ID 68344/GCAM-Demeter/GCAM-Harmonized/Mean_Std/SSP5_RCP85/GCAM_Demeter_LU_H_ssp5_rcp85_modelmean_2050.nc')
 
 ## Convert variables in spatial objet (terra pckg)
 
@@ -106,9 +105,10 @@ Forest_2050 <- sum(forest_2050_1)
 
 plot(Forest_2050)
 
+
 ## Save raster in results folder
 
-writeRaster(Forest_2050, "./data/GCAM/Forest_classes/SSP2_RCP45/2050/Forest_2050_1.tif")
+writeRaster(Forest_2050, "./data/GCAM/Forest_classes/SSP5_RCP85/2050/Forest_2050_1.tif")
 
 ## Clean environment and plots
 

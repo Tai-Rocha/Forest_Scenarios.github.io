@@ -1,12 +1,17 @@
-###################################################
+###########################################################
 ## Script to build histograms for forest (GCAM)
 ## Here we select and sum just forest classes
 ## Author: Tainá Rocha
 ## Data: 14 April 2021
 ## 4.02 R version
-###################################################
+## Updating in 8 June :  4.1 R version and logr pckgs and rdtLite
+## logr to create log files with several information 
+## rdtLite: to collect provenace 
+############################################################
 
 #Library
+library(logr)
+library(rdtLite)
 library(raster)
 library(ncdf4)
 library(rgdal)
@@ -16,12 +21,26 @@ library(ggplot2)
 
 ###############################################    2020    ############################################### 
 
+prov.init(
+  prov.dir = "./",
+  overwrite = TRUE,
+  snapshot.size = 0,
+  hash.algorithm = "md5",
+  save.debug = FALSE)
+
+log_open(file_name = "", logdir = TRUE, show_notes = TRUE, autolog = TRUE)
+
 F_2020 <- raster("./data/GCAM/Forest_classes/SSP1_RCP26/2020/Forest_2020_1.tif")
+
+log_print(F_2020)
 
 Forest_2020 <- t(flip(F_2020, direction = "y"))
 
 plot(Forest_2020)
 
+log_close()
+
+prov.quit()
 ## Save final raster of forest
 
 writeRaster(Forest_2020, "./results/SSP1_RCP26_Forest_2020.tif")

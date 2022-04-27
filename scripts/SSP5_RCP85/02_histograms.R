@@ -3,7 +3,6 @@
 ## Here we select and sum just forest classes
 ## Author: Tainá Rocha
 ## Data: 14 April 2021
-## 4.02 R version
 ###################################################
 
 #Library
@@ -12,11 +11,11 @@ library(ncdf4)
 library(rgdal)
 library(ggplot2)
 
-############################################### SSP2_RCP45 ############################################## 
+############################################### SSP5_RCP85 ############################################## 
 
 ###############################################    2020    ############################################### 
 
-F_2020 <- raster("./data/GCAM/Forest_classes/SSP2_RCP45/2020/Forest_2020_1.tif")
+F_2020 <- raster("./data/GCAM/Forest_classes/SSP5_RCP85/2020/Forest_2020_1.tif")
 
 Forest_2020 <- t(flip(F_2020, direction = "y"))
 
@@ -24,7 +23,7 @@ plot(Forest_2020)
 
 ## Save final raster of forest
 
-writeRaster(Forest_2020, "./results/SSP2_RCP45_Forest_2020.tif")
+writeRaster(Forest_2020, "./results/SSP5_RCP85_Forest_2020.tif")
 
 #####  Remove 0 values
 
@@ -42,7 +41,7 @@ ggplot(ahist, aes(x = breaks, y = counts)) +
   #scale_x_continuous(breaks = seq(-1,1,0.25),  ## without this you will get the same scale
                     # labels = seq(-1,1,0.25))    ## as hist (question picture)
 
-tiff(file="SSP2_RCP45_2020_Histogram.tiff",
+tiff(file="SSP5_RCP85_2020_Histogram.tiff",
      width=9, height=7, units="in", res=150)
 ggplot(ahist, aes(x = breaks, y = counts, fill = breaks)) + ## Note the new aes fill here
   geom_bar(stat = "identity",alpha = 0.8)+
@@ -55,7 +54,7 @@ dev.off()
 
 # Defalut R histogram
 #hist(Forest_2020,
-     #main = "Forest 2020 SSP2_RCP45",
+     #main = "Forest 2020 SSP5_RCP85",
      #xlab = "Forest values", ylab = "Frequency",
      #col = "springgreen")
 
@@ -69,7 +68,7 @@ dev.off(dev.list()["RStudioGD"])
 
 ###############################################    2030    ############################################### 
 
-F_2030 <- raster("./data/GCAM/Forest_classes/SSP2_RCP45/2030/Forest_2030_1.tif")
+F_2030 <- raster("./data/GCAM/Forest_classes/SSP5_RCP85/2030/Forest_2030_1.tif")
 
 Forest_2030 <- t(flip(F_2030, direction = "y"))
 
@@ -77,7 +76,7 @@ plot(Forest_2030)
 
 ## Save final raster of forest
 
-writeRaster(Forest_2030, "./results/SSP2_RCP45_Forest_2030.tif")
+writeRaster(Forest_2030, "./results/SSP5_RCP85_Forest_2030.tif")
 
 #####  Remove 0 values
 
@@ -95,7 +94,7 @@ ggplot(bhist, aes(x = breaks, y = counts)) +
 #scale_x_continuous(breaks = seq(-1,1,0.25),  ## without this you will get the same scale
 # labels = seq(-1,1,0.25))    ## as hist (question picture)
 
-tiff(file="SSP2_RCP45_2030_Histogram.tiff",
+tiff(file="SSP5_RCP85_2030_Histogram.tiff",
      width=9, height=7, units="in", res=150)
 ggplot(bhist, aes(x = breaks, y = counts, fill = breaks)) + ## Note the new aes fill here
   geom_bar(stat = "identity",alpha = 0.8)+
@@ -117,7 +116,7 @@ dev.off(dev.list()["RStudioGD"])
 
 ###############################################    2050    ############################################### 
 
-F_2050 <- raster("./data/GCAM/Forest_classes/SSP2_RCP45/2050/Forest_2050_1.tif")
+F_2050 <- raster("./data/GCAM/Forest_classes/SSP5_RCP85/2050/Forest_2050_1.tif")
 
 Forest_2050 <- t(flip(F_2050, direction = "y"))
 
@@ -125,7 +124,7 @@ plot(Forest_2050)
 
 ## Save final raster of forest
 
-writeRaster(Forest_2050, "./results/SSP2_RCP45_Forest_2050.tif")
+writeRaster(Forest_2050, "./results/SSP5_RCP85_Forest_2050.tif")
 
 #####  Remove 0 values
 
@@ -143,7 +142,7 @@ ggplot(chist, aes(x = breaks, y = counts)) +
 #scale_x_continuous(breaks = seq(-1,1,0.25),  ## without this you will get the same scale
 # labels = seq(-1,1,0.25))    ## as hist (question picture)
 
-tiff(file="SSP2_RCP45_2050_Histogram.tiff",
+tiff(file="SSP5_RCP85_2050_Histogram.tiff",
      width=9, height=7, units="in", res=150)
 ggplot(chist, aes(x = breaks, y = counts, fill = breaks)) + ## Note the new aes fill here
   geom_bar(stat = "identity",alpha = 0.8)+
