@@ -1,10 +1,6 @@
 # Forest_Scenarios
 Repository of workflow to get and assess the forest land-use classes of [GCAM-Demeter](https://data.pnnl.gov/dataset/13192) dataset under different scenarios of global change.
 
-### Study and code author : Tainá Rocha
-
-#### Status : In progress
-
 ## Introdcution
 <p align="justify"> Forest loss is one of the most threats to biodiversity, forest lands drive a key role in the climate earth system that also affects species diversity and ecosystem services (Eyringet al. 2016, Maxwell et al. 2016, Ruiz-Benito et al. 2020). Therefore, several initiatives had been driven to map land-use time series, mainly projections into the future. The availability of those products is valuable for earth science, ecology, conservation, and other research fields once land-use land-cover data are important predictors of species occurrence and biodiversity threat (Ruiz Benito et al. 2020, Vale et al. 2021).</p>
 
