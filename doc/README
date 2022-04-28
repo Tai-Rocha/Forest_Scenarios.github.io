@@ -1,0 +1,54 @@
+README
+
+I compiled here a forest land-use data from GCAM-Demeter (Chen et al 2020). I used the mean of five GCMs and the first version (Harmonized projection) to assess the forest classes through time and scenarios. The outputs provided here are the sum of raw Forest classes (codes PFT1 to PFT11- describe above) for Global extent in the Tag Image File Format (TIFF) format that is more friendly and useable to incorporate in several spatial analyses. 
+
+The netcdf raw files provide 32 lan tipe classes classes . To sum forest classes, I considere :
+
+PFT1- Needleleaf evergreen tree: temperate
+PFT2- Needleleaf evergreen tree: boreal
+PFT3- Needleleaf deciduous tree: boreal
+PFT4- Broadleaf evergreen tree: tropical
+PFT5- Broadleaf evergreen tree: temperate
+PFT6- Broadleaf deciduous tree: tropical
+PFT7- Broadleaf deciduous tree: temperate
+PFT8- Broadleaf deciduous tree: boreal
+PFT9- Broadleaf evergreen shrub: temperate
+PFT10- Broadleaf deciduous shrub: temperate
+PFT11- Broadleaf deciduous shrub: boreal
+
+The land classe types excludeed are:
+
+PFT0- Water
+PFT12-
+PFT13-
+PFT14-
+PFT15-
+PFT16-
+PFT17-
+PFT18-
+PFT19-
+PFT20-
+PFT21-
+PFT22-
+PFT23-
+PFT24-
+PFT25-
+PFT26-
+PFT27-
+PFT28-
+PFT29-
+PFT30-
+PFT31-
+PFT32-
+
+The data are available for:
+
+1- Global Extent at  0.05-degree resolution 
+2- Years 2020, 2030 and 2050
+3- Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCP) as follow: SSP1_RCP2, SSP2_RCP45, SSP4_RCP6, SSP5_RCP85.
+4- It can be identified by its file name. Example :
+2020_SSP5_RCP85_Forest_GCAM-Demeter_GCMsMean_Harmonized.tif
+
+Reference 
+
+Chen, M., Vernon, C. R., Graham, N. T., Hejazi, M., Huang, M., Cheng, Y., & Calvin, K. (2020). Global land use for 2015–2100 at 0.05 resolution under diverse socioeconomic and climate scenarios. Scientific Data, 7(1), 1-11. 
