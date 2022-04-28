@@ -19,7 +19,7 @@ The goals are to assess quantitatively the forest land under different scenarios
 
 The output can be identified by its file name. Example: `2020_SSP5_RCP85_Forest_GCAM-Demeter_GCMsMean_Harmonized.tif `.
 
-<p align="justify"> Although the valuable contribution of the GCAM-Demeter provides those data, those data are compressed in NetCDF format, a complex file format, which needs management to become usable in several analyses, especially in ecology and biodiversity analyses (Vale et al 2021 and reference therein). Here I manage the mean of five GCMs and the first version (i.e the harmonized projection)  to assess the forest classes summing all Forest classes (codes PTF1 to PTF8, described in Methods) considering:
+<p align="justify"> Although the valuable contribution of the GCAM-Demeter provides those data, those data are compressed in NetCDF format, a complex file format, which needs management to become usable in several analyses, especially in ecology and biodiversity analyses (Vale et al 2021 and reference therein). Here I manage the mean of five GCMs and the first version (i.e the harmonized projection)  to assess the forest classes summing plant functional types (codes PTF1 to PTF8, described in Methods) considering:
 
 1- Global Extent at  0.05-degree resolution <br>
 2- Years 2020, 2030 and 2050 <br>
@@ -31,8 +31,8 @@ The output can be identified by its file name. Example: `2020_SSP5_RCP85_Forest_
 ## Methods
 
 - [x] Downloa the NetCDF files  (the mean of five GCMs and the first version- the harmonized projection)  freely available at [DataHub](https://release.datahub.pnnl.gov/released_data/1190).
-- [x] Select and sum forest classes - Global extent 
-      
+- [x] Select and sum follow plant functional types for global extent 
+     
        PFT1- Needleleaf evergreen tree: temperate
        PFT2- Needleleaf evergreen tree: boreal
        PFT3- Needleleaf deciduous tree: boreal
