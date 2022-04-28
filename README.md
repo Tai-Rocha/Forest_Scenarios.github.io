@@ -7,7 +7,7 @@ Repository of workflow to get and assess the forest land-use classes of [GCAM-De
 
 <p align="justify">A recent land-use product called GCAM-Demeter presents the highest global spatial resolution (0.05 º) until now (Chean et al 2020).  It provided current and future projections (2015-2100) under different scenarios of climate change (Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCP)) and according to the most recent framework of Coupled Model Intercomparison Project phase 6 (CMIP6). The data in each year include grid-explicit fraction (in percent) of each of the 32 plant functional types (PFTs) that are widely used in current Earth system models. The complete dataset is available in five General Circulation Models (GCMs): gfdl, hadgem, ipsl, miroc, and noresm. Also includes the mean and standard deviation of those GCMs (Chen et al., 2020)</p>
 
-<p align="justify">Although the valuable contribution of the GCAM-Demeter to provide those data, it is compressed in NetCDF format, a complex file format that needs management to become usable in several analyses, especially in ecology and biodiversity analyses (Vale et al., 2021 and reference therein). Here I manage the mean of five GCMs (harmonized projection)  based on  the sum analysis of all forest classes (codes PTF1 to PTF11- described in README) considering:
+<p align="justify">Although the valuable contribution of the GCAM-Demeter to provide those data, it is compressed in NetCDF format, a complex file format that needs management to become usable in several analyses, especially in ecology and biodiversity analyses (Vale et al., 2021 and reference therein). Here I manage the outputs of the mean of five GCMs (harmonized projection) based on the sum analysis of plant functional types (codes PTF1 to PTF11- described in README) considering:
 
 1- Global Extent at  0.05-degree resolution <br>
 
@@ -15,7 +15,7 @@ Repository of workflow to get and assess the forest land-use classes of [GCAM-De
 
 3- SSPs and RCP as follow: SSP1_RCP2, SSP2_RCP45, SSP4_RCP6, SSP5_RCP85 <br>
 
-The goals are to assess quantitatively the forest land under different scenarios of global change and make these data available in the Tag Image File Format (TIFF) format that is more friendly and useable to incorporate in several spatial analyses mainly for ecology and biodiversity for conservation purposes.
+The goals are to assess quantitatively the forest land under different scenarios of global change and make these data available in the Tag Image File Format (TIFF) that is more friendly and useable to incorporate in several spatial analyses mainly for ecology and biodiversity for conservation purposes.
 
 The output can be identified by its file name. Example: `2020_SSP5_RCP85_Forest_GCAM-Demeter_GCMsMean_Harmonized.tif `.
 
@@ -25,7 +25,7 @@ The output can be identified by its file name. Example: `2020_SSP5_RCP85_Forest_
 2- Years 2020, 2030 and 2050 <br>
 3- Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCP) as follow: SSP1_RCP2, SSP2_RCP45, SSP4_RCP6, SSP5_RCP85 <br>
 
-  The goals are to assess quantitatively the forest land under different scenarios of global change and make these data available in the Tag Image File Format (TIFF) format that is more friendly and useable to incorporate in several spatial analyses mainly for ecology, biodiversity, and conservation purposes.  The output can be identified by its file name. Example: `2020_SSP5_RCP85_Forest_GCAM-Demeter_GCMsMean_Harmonized.tif` . </p>
+  The goals are to assess quantitatively the forest land under different scenarios of global change and make these data available in the Tag Image File Format (TIFF) format which is more friendly and useable to incorporate in several spatial analyses mainly for ecology, biodiversity, and conservation purposes.  The output can be identified by its file name. Example: `2020_SSP5_RCP85_Forest_GCAM-Demeter_GCMsMean_Harmonized.tif` . </p>
 
 
 ## Methods
