@@ -1,8 +1,8 @@
 README
 
-I compiled here a forest land-use data from GCAM-Demeter (Chen et al 2020). I used the mean of five GCMs and the first version (Harmonized projection) to assess the forest classes through time and scenarios. The outputs provided here are the sum of raw Forest classes (codes PFT1 to PFT11- describe above) for Global extent in the Tag Image File Format (TIFF) format that is more friendly and useable to incorporate in several spatial analyses. 
+Forested land-use data from GCAM-Demeter (Chen et al. 2020) considering the mean of five General Circulation Models(GCMs gfdl, hadgem, ipsl, miroc, and noresmand) and the first version (Harmonized projection) to assess the forested land through time and global change scenarios (Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCP)). The outputs of forest lands provided here are the sum of plant functional types (codes PFT1 to PFT11- described below) in the Tag Image File Format (TIFF) that is more friendly and useable format to incorporate in several spatial analyses in ecology and biodiversity studies. 
 
-The netcdf raw files provide 32 lan tipe classes classes . To sum forest classes, I considere :
+The NetCDF raw files provide 32 land types. To the sum analysis to obtain forested land, I consider :
 
 PFT1- Needleleaf evergreen tree: temperate
 PFT2- Needleleaf evergreen tree: boreal
@@ -16,38 +16,39 @@ PFT9- Broadleaf evergreen shrub: temperate
 PFT10- Broadleaf deciduous shrub: temperate
 PFT11- Broadleaf deciduous shrub: boreal
 
-The land classe types excludeed are:
+The land  types excluded:
 
 PFT0- Water
-PFT12-
-PFT13-
-PFT14-
-PFT15-
-PFT16-
-PFT17-
-PFT18-
-PFT19-
-PFT20-
-PFT21-
-PFT22-
-PFT23-
-PFT24-
-PFT25-
-PFT26-
-PFT27-
-PFT28-
-PFT29-
-PFT30-
-PFT31-
-PFT32-
+PFT12- C3 Arctic
+PFT13- C3 Grass
+PFT14- C4 Grass
+PFT15- Corn: rainfed
+PFT16- Corn: irrigated
+PFT17- Wheat: rainfed
+PFT18- Wheat: irrigated
+PFT19- Soybean: rainfed
+PFT20- Soybean: irrigated
+PFT21- Cotton: rainfed
+PFT22- Cotton: irrigated
+PFT23- Rice: rainfed
+PFT24- Rice: irrigated
+PFT25- Sugar crop: rainfed
+PFT26- Sugar crop: irrigated
+PFT27- Other crop: rainfed
+PFT28- Other crop: irrigate
+PFT29- Bioenergy crop: rainfed
+PFT30- Bioenergy crop: irrigated
+PFT31- Urban
 
-The data are available for:
+Other details about the TIFF outputs results of forest land:
 
-1- Global Extent at  0.05-degree resolution 
+1- Global Extent at 0.05-degree resolution 
+
 2- Years 2020, 2030 and 2050
-3- Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCP) as follow: SSP1_RCP2, SSP2_RCP45, SSP4_RCP6, SSP5_RCP85.
-4- It can be identified by its file name. Example :
-2020_SSP5_RCP85_Forest_GCAM-Demeter_GCMsMean_Harmonized.tif
+
+3- SSPs and RCP as follow: SSP1_RCP2, SSP2_RCP45, SSP4_RCP6, SSP5_RCP85
+
+4-  The output ranges from 0 to 100 and can be identified by its file name, for example: 2020_SSP5_RCP85_Forest_GCAM-Demeter_GCMsMean_Harmonized.tif .
 
 Reference 
 
