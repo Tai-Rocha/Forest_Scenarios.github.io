@@ -63,8 +63,8 @@ The management and the sum data analysis were done using ncdf4 and raster packag
 
 
 
-<img align="center" src="https://github.com/Tai-Rocha/Forest_Scenarios.github.io/raw/main/doc/images/SSP1_SSP2.png" width="750">
-<img align="center" src="https://github.com/Tai-Rocha/Forest_Scenarios.github.io/raw/main/doc/images/SSP4_SSP5.png" width="750">
+<img align="center" src="https://github.com/Tai-Rocha/Forest_Scenarios.github.io/raw/main/doc/images/SSP1_SSP2.png" width="950">
+<img align="center" src="https://github.com/Tai-Rocha/Forest_Scenarios.github.io/raw/main/doc/images/SSP4_SSP5.png" width="950">
 Fig1. Histograms of forest scenarios 
 
 ## References
