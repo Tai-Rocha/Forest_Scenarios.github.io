@@ -12,8 +12,6 @@
 
 #Library
 library(raster)
-library(ncdf4)
-library(rgdal)
 library(ggplot2)
 
 ############################################### SSP1_RCP26 ############################################## 
@@ -134,12 +132,18 @@ ggplot(chist, aes(x = breaks, y = counts)) +
 
 tiff(file="2050_SSP1_RCP26_Forest_GCAM-Demeter_GCMsMean_Harmonized_Hist.tiff",
      width=9, height=7, units="in", res=150)
-ggplot(chist, aes(x = breaks, y = counts, fill = breaks)) + ## Note the new aes fill here
+cc <- ggplot(chist, aes(x = breaks, y = counts, fill = breaks)) + ## Note the new aes fill here
   geom_bar(stat = "identity",alpha = 0.8)+
-  xlab("2050 SSP1 RCP 2.6 Forested Land")+ ylab("Number of Grids")+
+  #xlab("2050 SSP1 RCP 2.6 Forested Land")+ ylab("Number of Grids")+
   #scale_x_continuous(breaks = seq(0,1,10),
   # labels = seq(0,1,10))+
-  scale_fill_gradient(low="black", high="green")  
+  scale_fill_gradient(low="black", high="green")
+  
+
+cc +
+  scale_x_continuous("2050 SSP1 RCP 2.6 Forested Land", limits = c(0, 100))+
+  scale_y_continuous("Number of Grids",  breaks = c(0, 2500000, 500000, 750000, 1000000),label = c("0", "2500000", "500000", "750000", "1000000"))
+  
 
 dev.off()
 
