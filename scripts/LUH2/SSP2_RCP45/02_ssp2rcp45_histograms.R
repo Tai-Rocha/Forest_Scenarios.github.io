@@ -1,11 +1,11 @@
 ###########################################################
-## Script to build histograms for forest (GCAM)
+## Script to build histograms for forest (LUH2)
 ## Here we select and sum just forest classes
 ## Author: Tainá Rocha
-## Data: 14 April 2021 - 30 April 2022
+## Data: 14 April 2021
 ## 4.0.2 R version
 ## 4.2.0 Rvesion
-## Updating in 8 June :  4.1 R version and logr pckgs and rdtLite
+## Updating in 22 May 2022 :  4.1 R version and logr pckgs and rdtLite
 ## logr to create log files with several information 
 ## rdtLite: to collect provenace 
 ############################################################
@@ -19,7 +19,7 @@ library(ggplot2)
 ###############################################    2020    ############################################### 
 
 
-F_2020 <- raster("./results/SSP2_RCP45/2020_SSP2_RCP45_Forest_GCAM-Demeter_GCMsMean_Harmonized.tif")
+F_2020 <- raster("results/LUH2/SSP245/2020_SSP2_RCP45_Forest_LUH2.tif")
 
 plot(F_2020)
 
@@ -41,7 +41,7 @@ ggplot(ahist, aes(x = breaks, y = counts)) +
 #scale_x_continuous(breaks = seq(-1,1,0.25),  ## without this you will get the same scale
 # labels = seq(-1,1,0.25))    ## as hist (question picture)
 
-tiff(file="2020_SSP2_RCP45_Forest_GCAM-Demeter_GCMsMean_Harmonized_Hist.tiff",
+tiff(file="2020_SSP2_RCP45_Forest_LUH2_Hist.tiff",
      width=9, height=7, units="in", res=150)
 ggplot(ahist, aes(x = breaks, y = counts, fill = breaks)) + ## Note the new aes fill here
   geom_bar(stat = "identity",alpha = 0.8)+
@@ -50,7 +50,9 @@ ggplot(ahist, aes(x = breaks, y = counts, fill = breaks)) + ## Note the new aes 
   # labels = seq(0,1,10))+
   scale_fill_gradient(low="black", high="green")  
 
-dev.off()
+dev.off() 
+
+dev.off(dev.list()["RStudioGD"]) 
 
 # Defalut R histogram
 #hist(Forest_2020,
@@ -66,7 +68,7 @@ rm(list=ls()) ## list all environment objects and remove
 
 ###############################################    2030    ############################################### 
 
-F_2030 <- raster("./results/SSP2_RCP45/2030_SSP2_RCP45_Forest_GCAM-Demeter_GCMsMean_Harmonized.tif")
+F_2030 <- raster("results/LUH2/SSP245/2030_SSP2_RCP45_Forest_LUH2.tif")
 
 plot(F_2030)
 
@@ -88,7 +90,7 @@ ggplot(bhist, aes(x = breaks, y = counts)) +
 #scale_x_continuous(breaks = seq(-1,1,0.25),  ## without this you will get the same scale
 # labels = seq(-1,1,0.25))    ## as hist (question picture)
 
-tiff(file="2030_SSP2_RCP45_Forest_GCAM-Demeter_GCMsMean_Harmonized_Hist.tiff",
+tiff(file="2030_SSP2_RCP45_Forest_LUH2_Hist.tiff",
      width=9, height=7, units="in", res=150)
 ggplot(bhist, aes(x = breaks, y = counts, fill = breaks)) + ## Note the new aes fill here
   geom_bar(stat = "identity",alpha = 0.8)+
@@ -97,7 +99,10 @@ ggplot(bhist, aes(x = breaks, y = counts, fill = breaks)) + ## Note the new aes 
   # labels = seq(0,1,10))+
   scale_fill_gradient(low="black", high="green")  
 
-dev.off()
+dev.off() 
+
+dev.off(dev.list()["RStudioGD"]) 
+
 
 ## Clean environment and plots
 
@@ -106,7 +111,7 @@ rm(list=ls()) ## list all environment objects and remove
 
 ###############################################    2050    ############################################### 
 
-F_2050 <- raster("./results/SSP2_RCP45/2050_SSP2_RCP45_Forest_GCAM-Demeter_GCMsMean_Harmonized.tif")
+F_2050 <- raster("results/LUH2/SSP245/2050_SSP2_RCP45_Forest_LUH2.tif")
 
 plot(F_2050)
 
@@ -130,22 +135,18 @@ ggplot(chist, aes(x = breaks, y = counts)) +
 #scale_x_continuous(breaks = seq(-1,1,0.25),  ## without this you will get the same scale
 # labels = seq(-1,1,0.25))    ## as hist (question picture)
 
-tiff(file="2050_SSP2_RCP45_Forest_GCAM-Demeter_GCMsMean_Harmonized_Hist.tiff",
+tiff(file="2050_SSP2_RCP45_Forest_LUH2_Hist.tiff",
      width=9, height=7, units="in", res=150)
-cc <- ggplot(chist, aes(x = breaks, y = counts, fill = breaks)) + ## Note the new aes fill here
+ggplot(chist, aes(x = breaks, y = counts, fill = breaks)) + ## Note the new aes fill here
   geom_bar(stat = "identity",alpha = 0.8)+
-  #xlab("2050 SSP2 RCP4.5 Forested Land")+ ylab("Number of Grids")+
+  xlab("2050 SSP2 RCP4.5 Forested Land")+ ylab("Number of Grids")+
   #scale_x_continuous(breaks = seq(0,1,10),
   # labels = seq(0,1,10))+
-  scale_fill_gradient(low="black", high="green")
+  scale_fill_gradient(low="black", high="green")  
 
+dev.off() 
 
-cc +
-  scale_x_continuous("2050 SSP2 RCP4.5 Forested Land", limits = c(0, 100))+
-  scale_y_continuous("Number of Grids",  breaks = c(0, 2500000, 500000, 750000, 1000000),label = c("0", "2500000", "500000", "750000", "1000000"))
-
-
-dev.off()
+dev.off(dev.list()["RStudioGD"]) 
 
 ## Clean environment and plots
 

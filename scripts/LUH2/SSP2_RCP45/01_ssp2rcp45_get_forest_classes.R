@@ -95,4 +95,5 @@ writeRaster(y_2050, "results/LUH2/SSP245/2050_SSP2_RCP45_Forest_LUH2.tif")
 rm(list=ls()) 
 
 ## Remove all plots
+dev.off(dev.list()["RStudioGD"]) 
 

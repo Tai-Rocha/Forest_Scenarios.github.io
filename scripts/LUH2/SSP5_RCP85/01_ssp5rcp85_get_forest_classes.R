@@ -96,3 +96,4 @@ rm(list=ls())
 
 ## Remove all plots
 
+dev.off(dev.list()["RStudioGD"]) 
